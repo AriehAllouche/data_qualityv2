@@ -1,0 +1,8 @@
+{
+  "name": "data-quality-checker",
+  "private": true,
+  "scripts": {
+    "dev": "pip install -r requirements.txt && streamlit run data_quality.py --server.port 3000 --server.address 0.0.0.0 --server.headless true",
+    "start": "streamlit run data_quality.py --server.port 3000 --server.address 0.0.0.0 --server.headless true"
+  }
+}
